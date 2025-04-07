@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="brouillon_aganda.View.gestion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Gestion" FontSize="24" FontWeight="Bold" 
+                       HorizontalAlignment="Center"/>
+            <Button Content="Manage Items" Margin="10" 
+                    Click="ManageItems_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

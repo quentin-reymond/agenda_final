@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="brouillon_aganda.View.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Home" FontSize="24" FontWeight="Bold" 
+                       HorizontalAlignment="Center"/>
+            <TextBlock Margin="10"><Run Language="fr-fr" Text="Bienvenue sur mon application"/></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>
